@@ -1,2 +1,2 @@
-# Discord_bot_Tawan
+# Discord_bot_Kuhn
 Discord bot that changes YouTube link to Laibaht link 
