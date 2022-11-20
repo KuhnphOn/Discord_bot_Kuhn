@@ -1,3 +1,8 @@
-# Discord_bot_Kuhn
+# Discord bot Kuhn
 Discord bot that changes YouTube link to Laibaht link <br>
-ขุนโดนกูปล้น
+
+```
+pip install discord.py
+pip install os-sys
+pip install python-dotenv
+```
