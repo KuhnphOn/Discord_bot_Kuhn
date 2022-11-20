@@ -21,16 +21,14 @@ async def on_message(message):
     if message.content.startswith("https://youtu.be/"):
       text = str(message.content)
       song = "https://play.laibaht.ovh/watch?v="+text[17:]
-      await message.channel.send("-----------------------------------")
-      await message.channel.send(f"ไอ{username} มันขอเพลง")
+      await message.channel.send(f"----------------------------------- \n ไอ{username} มันขอเพลง")
       await message.channel.send(song)
       await message.delete()
         
     if message.content.startswith("https://www.youtube.com/watch?v="):
       text = str(message.content)
       song = "https://play.laibaht.ovh/watch?v="+text[32:]
-      await message.channel.send("-----------------------------------")
-      await message.channel.send(f"ไอ{username} มันขอเพลง")
+      await message.channel.send(f"----------------------------------- \n ไอ{username} มันขอเพลง")
       await message.channel.send(song)
       await message.delete()
           
